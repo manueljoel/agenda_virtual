@@ -18,6 +18,7 @@ if (file_exists('../../Config/global.php')) {
 
     <link rel="stylesheet" href="/../agenda_virtual/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/../agenda_virtual/assets/css/menu.css">
+    <link rel="stylesheet" href="/../agenda_virtual/assets/css/semantic.min.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 

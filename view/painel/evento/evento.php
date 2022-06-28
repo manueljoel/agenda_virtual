@@ -3,8 +3,8 @@ include_once('../../../view/painel/layouts/header.php');
 include_once('../../../view/painel/layouts/navbar.php');
 ?>
 
-<div class="container-fluid">
-    <div class=" mb-4 bg-dark text-white rounded-2">
+<div class="container-fluid py-5">
+    <div class=" mb-2 bg-white text-dark rounded-2">
         <div class="container-fluid py-3">
             <h1 class="display-5 fw-bold">Meus Eventos</h1>
             <p class="col-md-8 fs-5">Adicionar eventos</p>
@@ -15,41 +15,47 @@ include_once('../../../view/painel/layouts/navbar.php');
 <div class="container">
     <div class="row ">
         <div>
-            <div class="card-body rounded-2 bg-white py-5">
-                <form class="was-validated">
+            <div class="card-body rounded-2 bg-white shadow-lg py-5">
+                <form class="ui form">
                     <div class="row p-3">
                         <div class="col-sm-6">
-                            <label class="form-label">Título do Evento:</label>
+                            <label>Título do Evento:</label>
                             <input type="text" class="form-control" placeholder="informe o nome completo..." required>
                         </div>
 
                         <div class="col-sm-6">
-                            <label class="form-label">Descrição:</label>
+                            <label>Descrição:</label>
                             <input type="text" class="form-control" placeholder="digite o número..." required>
                         </div>
 
                         <div class="col-sm-6 py-2">
-                            <label class="form-label">Data:</label>
+                            <label>Data:</label>
                             <input type="date" class="form-control" placeholder="informe o nome completo..." required>
                         </div>
 
                         <div class="col-sm-6 py-2">
-                            <label class="form-label">Hora:</label>
+                            <label>Hora:</label>
                             <input type="time" class="form-control" placeholder="digite o número..." required>
                         </div>
 
                         <div class="col-sm-6 py-2">
-                            <label class="form-label">Local do Evento(opcional):</label>
+                            <label>Local do Evento(opcional):</label>
                             <input type="text" class="form-control" placeholder="digite o número...">
                         </div>
                     </div>
 
                     <div class="card-footer-fluid px-3 bg-white">
-                        <button type="submit" class="btn btn-primary">Salvar</button>
+                        <button type="submit" class="ui blue button">
+                            Salvar
+                        </button>
 
-                        <a href="/../agenda_virtual/view/painel/evento/lista_evento.php" type="submit" class="btn btn-primary">Ver lista</a>
+                        <a href="/../agenda_virtual/view/painel/evento/lista_evento.php" type="submit" class="ui blue button">
+                            Ver lista
+                        </a>
 
-                        <a href="/../agenda_virtual/view/painel/home.php" type="submit" class="btn btn-danger">Cancelar</a>
+                        <a href="/../agenda_virtual/view/painel/home.php" type="submit" class="ui red button">
+                            Cancelar
+                        </a>
                     </div>
                 </form>
             </div>

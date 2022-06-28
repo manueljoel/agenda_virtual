@@ -27,9 +27,9 @@
 
             <form action="" class="form-sign-up">
                 <img class="mb-4" src="/../agenda_virtual/assets/img/icons8_add_user_male_64.png" alt="" width="65" height="65">
-                <input type="text" placeholder="informe seu nome" required>
-                <input type="email" placeholder="informe seu email" required>
-                <input type="password" placeholder="informe sua enha" required>
+                <input type="text" placeholder="informe seu nome..." required>
+                <input type="email" placeholder="seu email@gmail.com" required>
+                <input type="password" placeholder="informe sua enha***" required>
 
                 <button class="btn btn-primary">Criar</button>
 
