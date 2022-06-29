@@ -4,16 +4,16 @@ include_once('../../../view/painel/layouts/navbar.php');
 ?>
 
 <div class="container-fluid py-5">
-    <div class=" mb-2 bg-white text-dark rounded-2">
-        <div class="container-fluid py-3">
-            <h1 class="display-5 fw-bold">Editar Contactos</h1>
-            <p class="col-md-8 fs-5">Altere os campos a baixo</p>
-        </div>
+    <div class=" mb-2 bg-white text-dark py-4 rounded-2 shadow-sm">
+        <h1 class="ui header">
+            <div class="m-3 content">Editar Contactos<div class="sub header">Altere os campos a baixo</div>
+            </div>
+        </h1>
     </div>
 </div>
 
-<div class="container">
-    <div class="row ">
+<div class="container py-5">
+    <div class="row mb-5 py-4">
         <div>
             <div class="card-body rounded-2 bg-white shadow-lg py-5">
                 <form class="ui form">
@@ -35,15 +35,15 @@ include_once('../../../view/painel/layouts/navbar.php');
                     </div>
 
                     <div class="card-footer-fluid px-3 bg-white">
-                        <button type="submit" class="ui blue button">
+                        <button type="submit" class="ui teal button">
                             Editar
                         </button>
 
-                        <a href="/../agenda_virtual/view/painel/contactos/lista_contactos.php" type="submit" class="ui blue button">
+                        <a href="/../agenda_virtual/view/painel/contactos/lista_contactos.php" type="submit" class="ui teal button">
                             Ver Aterações
                         </a>
 
-                        <a href="/../agenda_virtual/view/painel/contactos/contactos.php" type="submit" class="ui red button">
+                        <a href="/../agenda_virtual/view/painel/contactos/contactos.php" type="submit" class="ui cinza button">
                             Cancelar
                         </a>
 
@@ -57,6 +57,9 @@ include_once('../../../view/painel/layouts/navbar.php');
         </div>
     </div>
 </div>
+<br><br>
+<br><br>
+<br>
 
 <?php
 include_once('../../../view/painel/layouts/footer.php');

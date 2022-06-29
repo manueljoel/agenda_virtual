@@ -19,7 +19,7 @@ body{
 .container{
     position: relative;
     padding: 40px 20px;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     width: 800px;
     min-height: 440px;
@@ -61,7 +61,6 @@ body{
     height: 100%;
     top: 0;
     transition: 0.8s;
-    
 }
 
 
@@ -100,23 +99,31 @@ body{
     text-decoration: none;
 }
 
-.btn{
+.button{
     padding: 10px;
     min-width: 100px;
-    border-radius: 20px;
+    border: none;
     color: white;
     margin: 20px;
     outline: none;
     cursor: pointer;
-    background: linear-gradient(rgb(2, 49, 175), rgb(3, 44, 156));
+    background: linear-gradient(#75c6d2, #07ccea);
 
+}
+
+.button:hover{
+    overflow: none;
+    border: #03d3f3;
+    color: white;
+    transition: 0.3s;
+    
 }
 
 .overlay{
     position: absolute;
     height: 100%;
     width: 50%;
-    background: linear-gradient(rgb(2, 49, 175), rgb(3, 44, 156));
+    background: linear-gradient( #75c6d2, #07ccea);
     top: 50%;
     transform: translateY(-50%);
     left: 0;

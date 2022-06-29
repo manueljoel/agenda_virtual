@@ -3,19 +3,21 @@ include_once('../../../view/painel/layouts/header.php');
 include_once('../../../view/painel/layouts/navbar.php');
 ?>
 
-<div class="container-fluid py-5">
-    <div class=" mb-4 bg-white text-dark rounded-2">
+<div class="container-fluid py-1">
+    <div class=" bg-white text-dark py-4 shadow">
         <div class="container-fluid py-3">
-            <h1 class="display-5 fw-bold">Adicionar Contactos</h1>
-            <p class="col-md-8 fs-5">Preencha os campos a baixo</p>
+            <h1 class="ui header">
+                <div class="m-3 content">Adicionar Contactos<div class="sub header">Preencha os campos a baixo</div>
+                </div>
+            </h1>
         </div>
     </div>
 </div>
 
-<div class="container">
-    <div class="row ">
+<div class="container py-5">
+    <div class="row mb-5 py-5">
         <div>
-            <div class="card-body rounded-2 bg-white shadow-lg py-5">
+            <div class="card-body rounded-2 bg-white shadow py-5">
                 <form class="ui form">
                     <div class="row p-3">
                         <div class="col-sm-6">
@@ -35,15 +37,15 @@ include_once('../../../view/painel/layouts/navbar.php');
                     </div>
 
                     <div class="card-footer-fluid px-3 bg-white">
-                        <button type="submit" class="ui blue button">
+                        <button type="submit" class="ui teal button">
                             Salvar
                         </button>
 
-                        <a href="/../agenda_virtual/view/painel/contactos/lista_contactos.php" type="submit" class="ui blue button">
+                        <a href="/../agenda_virtual/view/painel/contactos/lista_contactos.php" type="submit" class="ui teal button">
                             Ver lista
                         </a>
 
-                        <a href="/../agenda_virtual/view/painel/home.php" type="submit" class="ui red button">
+                        <a href="/../agenda_virtual/view/painel/home.php" type="submit" class="ui cinza button">
                             Cancelar
                         </a>
                     </div>
@@ -52,6 +54,8 @@ include_once('../../../view/painel/layouts/navbar.php');
         </div>
     </div>
 </div>
+<br><br>
+<br><br>
 
 <?php
 include_once('../../../view/painel/layouts/footer.php');

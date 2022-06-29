@@ -9,13 +9,13 @@
         <div class="signin">
 
             <form action="../../view/painel/home.php" class="form-sign-in">
-                <img class="mb-4" src="/../agenda_virtual/assets/img/icons8_checked_user_male_64.png" alt="" width="65" height="65">
+                <img class="mb-4" src="/../agenda_virtual/assets/img/icons8_checked_user_1.ico" alt="" width="65" height="65">
 
                 <input type="email" placeholder="email@gmail.com" required>
                 <input type="password" placeholder="Senha***" required>
 
-
-                <button class="btn btn-primary">Entrar</button>
+                <br>
+                <button class="btn ui button">Entrar</button>
 
             </form>
 
@@ -26,12 +26,13 @@
         <div class="signup">
 
             <form action="" class="form-sign-up">
-                <img class="mb-4" src="/../agenda_virtual/assets/img/icons8_add_user_male_64.png" alt="" width="65" height="65">
+                <img class="mb-4" src="/../agenda_virtual/assets/img/icons8_add_user.ico" alt="" width="65" height="65">
                 <input type="text" placeholder="informe seu nome..." required>
                 <input type="email" placeholder="seu email@gmail.com" required>
                 <input type="password" placeholder="informe sua enha***" required>
 
-                <button class="btn btn-primary">Criar</button>
+                <br>
+                <button class="btn ui button ">Criar</button>
 
             </form>
 
@@ -50,7 +51,9 @@
             <span>
                 Se o cadastro já foi feito, Então podes
             </span>
-            <button class="btn btn-overlay" onclick="togglePage()">Entrar</button>
+
+            <br>
+            <button class="btn-overlay ui button" onclick="togglePage()">Entrar</button>
         </div>
 
         <div class="overlay-panel overlay-signup">
@@ -60,7 +63,9 @@
             <span>
                 Se ainda não tens uma conta, clica no botão abaixo
             </span>
-            <button class="btn btn-overlay" onclick="togglePage()">Criar</button>
+
+            <br>
+            <button class="btn-overlay ui button" onclick="togglePage()">Criar</button>
         </div>
 
     </div>

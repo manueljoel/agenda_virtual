@@ -3,21 +3,23 @@ include_once('../../../view/painel/layouts/header.php');
 include_once('../../../view/painel/layouts/navbar.php');
 ?>
 
-<div class="container-fluid py-5">
-    <div class=" mb-2 bg-white text-dark rounded-2">
+<div class="container-fluid py-1">
+    <div class=" mb-2 bg-white text-dark py-4 rounded-2 shadow">
         <div class="container-fluid py-3">
-            <h1 class="display-5 fw-bold">Editar Eventos</h1>
-            <p class="col-md-8 fs-5">altere os campos a baixo</p>
+            <h1 class="ui header">
+                <div class="m-3 content">Editar Eventos<div class="sub header">altere os campos a baixo</div>
+                </div>
+            </h1>
         </div>
     </div>
 </div>
 
-<div class="container">
-    <div class="row ">
+<div class="container py-3">
+    <div class="row mb-5 py-5 ">
         <div>
             <div class="card-body rounded-2 bg-white shadow-lg py-5">
                 <form class="ui form">
-                    <div class="row p-3">
+                    <div class="row p-2">
                         <div class="col-sm-6">
                             <label>Título do Evento:</label>
                             <input type="text" class="form-control" placeholder="informe o nome completo..." required>
@@ -45,13 +47,13 @@ include_once('../../../view/painel/layouts/navbar.php');
                     </div>
 
                     <div class="card-footer-fluid px-3 bg-white">
-                        <button type="submit" class="ui blue button">Editar</button>
+                        <button type="submit" class="ui teal button">Editar</button>
 
-                        <a href="/../agenda_virtual/view/painel/evento/lista_evento.php" type="submit" class="ui blue button">
+                        <a href="/../agenda_virtual/view/painel/evento/lista_evento.php" type="submit" class="ui teal button">
                             Ver lista
                         </a>
 
-                        <a href="/../agenda_virtual/view/painel/evento/evento.php" type="submit" class="ui red button">
+                        <a href="/../agenda_virtual/view/painel/evento/evento.php" type="submit" class="ui cinza button">
                             Cancelar
                         </a>
 
@@ -65,6 +67,8 @@ include_once('../../../view/painel/layouts/navbar.php');
         </div>
     </div>
 </div>
+<br><br>
+
 
 <?php
 include_once('../../../view/painel/layouts/footer.php');
