@@ -12,8 +12,8 @@ include_once('../../../view/painel/layouts/navbar.php');
     </div>
 </div>
 
-<div class="container py-5">
-    <div class="row mb-5 py-4">
+<div class="container">
+    <div class="row mb-2 py-2">
         <div>
             <div class="card-body rounded-2 bg-white shadow-lg py-5">
                 <form class="ui form">
@@ -30,25 +30,28 @@ include_once('../../../view/painel/layouts/navbar.php');
 
                         <div class="col-sm-6 py-2">
                             <label>Morada(opcional):</label>
-                            <input type="text" class="form-control" placeholder="digite a morada...">
+                            <textarea type="text" class="field" placeholder="informe a morada..."></textarea>
                         </div>
                     </div>
 
                     <div class="card-footer-fluid px-3 bg-white">
                         <button type="submit" class="ui teal button">
+                            <i class="fa-solid fa-pen-to-square"></i>
                             Editar
                         </button>
 
                         <a href="/../agenda_virtual/view/painel/contactos/lista_contactos.php" type="submit" class="ui teal button">
-                            Ver Aterações
+                            <i class="fa-solid fa-list"></i>
+                            Ver lista
                         </a>
 
                         <a href="/../agenda_virtual/view/painel/contactos/contactos.php" type="submit" class="ui cinza button">
+                            <i class="fa-solid fa-rectangle-xmark"></i>
                             Cancelar
                         </a>
 
                         <a href="/../agenda_virtual/view/painel/home.php" type="submit" class="ui yellow button">
-                            <i class="bi bi-house-door-fill"></i>
+                            <i class="fa-solid fa-landmark"></i>
                             Home
                         </a>
                     </div>

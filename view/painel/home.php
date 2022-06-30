@@ -41,7 +41,10 @@ include_once('../painel/layouts/navbar.php');
                     </div>
                 </div>
                 <div class="extra content">
-                    <a href="/../agenda_virtual/view/painel/tarefas/lista_tarefas.php" class="ui button">ver detalhes</a>
+                    <a href="/../agenda_virtual/view/painel/tarefas/lista_tarefas.php" class="ui button">
+                        <i class="fa-solid fa-plus"></i>
+                        ver detalhes
+                    </a>
                 </div>
             </div>
         </div>
@@ -64,7 +67,10 @@ include_once('../painel/layouts/navbar.php');
                     </div>
                 </div>
                 <div class="extra content">
-                    <a href="/../agenda_virtual/view/painel/contactos/lista_contactos.php" class="ui button">ver detalhes</a>
+                    <a href="/../agenda_virtual/view/painel/contactos/lista_contactos.php" class="ui button">
+                        <i class="fa-solid fa-plus"></i>
+                        ver detalhes
+                    </a>
                 </div>
             </div>
         </div>
@@ -87,7 +93,10 @@ include_once('../painel/layouts/navbar.php');
                     </div>
                 </div>
                 <div class="extra content">
-                    <button class="ui button">ver detalhes</button>
+                    <button class="ui button">
+                        <i class="fa-solid fa-plus"></i>
+                        ver detalhes
+                    </button>
                 </div>
             </div>
         </div>
@@ -113,7 +122,10 @@ include_once('../painel/layouts/navbar.php');
                     </div>
                 </div>
                 <div class="extra content">
-                    <button class="ui button">ver detalhes</button>
+                    <button class="ui button">
+                        <i class="fa-solid fa-plus"></i>
+                        ver detalhes
+                    </button>
                 </div>
             </div>
         </div>

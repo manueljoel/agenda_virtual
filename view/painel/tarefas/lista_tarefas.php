@@ -14,15 +14,13 @@ include_once('../../../view/painel/layouts/navbar.php');
     </div>
 </div>
 
-<div class="container py-3">
-    <div class="row py-5 mb-5">
+<div class="container-fluid">
+    <div class="row m-1 py-4 mb-5">
         <div class="row py-5 mb-5">
-            <div class="col-md-12">
-                <table class="ui fixed table ui teal table">
+            <div class="m-4 col-md-12">
+                <table id="Tabela" class=" ui fixed celled table shadow-sm" style="width:100%">
                     <thead class="">
                         <tr>
-                            <th>#</th>
-
                             <th>Título da tarefa</th>
 
                             <th>Descriçāo</th>
@@ -31,14 +29,13 @@ include_once('../../../view/painel/layouts/navbar.php');
 
                             <th>Hora</th>
 
-                            <th>Acçōes</th>
+                            <th width="12%">Acçōes</th>
                         </tr>
 
                     </thead>
                     <tbody>
 
                         <tr>
-                            <th scope="row">1</th>
                             <td scope="row">Terminar o projecto agenda</td>
                             <td scope="row">Cumprir com as metas a tempo</td>
                             <td scope="row">06/31/2022</td>
@@ -46,28 +43,29 @@ include_once('../../../view/painel/layouts/navbar.php');
 
                             <th>
                                 <a href="" class="ui cinza button btn-sm">
-                                    <i class="bi bi-trash-fill">
-                                    </i>
+                                    <i class="fa-solid fa-trash-can"></i>
                                 </a>
 
                                 <a href="../../painel/tarefas/editar_tarefas.php" class="ui teal button btn-sm ">
-                                    <i class="bi bi-pen-fill">
-                                    </i>
+                                    <i class="fa-solid fa-pen-clip"></i>
+                                </a>
+
+                                <a href="../../painel/tarefas/editar_tarefas.php" class="ui yellow button btn-sm ">
+                                    <i class="fa-solid fa-eye"></i>
                                 </a>
                             </th>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <div class="py-4">
+            <div class="m-3">
                 <a href="../../painel/tarefas/tarefas.php" class="ui teal button">
-                    <i class="bi bi-file-plus-fill">
-                        Adicionar
-                    </i>
+                    <i class="fa-solid fa-plus"></i>
+                    Adicionar
                 </a>
 
                 <a href="/../agenda_virtual/view/painel/home.php" type="submit" class="ui yellow button">
-                    <i class="bi bi-house-door-fill"></i>
+                    <i class="fa-solid fa-landmark"></i>
                     Home
                 </a>
             </div>

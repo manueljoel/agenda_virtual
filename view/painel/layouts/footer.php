@@ -1,7 +1,3 @@
-<script src="/../agenda_virtual/assets/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="/../agenda_virtual/assets/js/semantic.min.js"></script>
-
 <footer class="footer mt-auto text-white">
     <div class="rodape py-4">
         <div class="container-fluid">
@@ -9,6 +5,29 @@
         </div>
     </div>
 </footer>
+
+<script src="/../agenda_virtual/assets/js/bootstrap.bundle.min.js"></script>
+<script src="/../agenda_virtual/assets/js/jquery-3.5.1.js"></script>
+<script src="/../agenda_virtual/assets/js/jquery.dataTables.min.js"></script>
+<script src="/../agenda_virtual/assets/js/dataTables.semanticui.min.js"></script>
+<script src="/../agenda_virtual/assets/js/semantic.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#Tabela').DataTable();
+    });
+</script>
+
+<script>
+    function excluir(id) {
+        var resposta = confirm("Deseja remover esse registro?");
+        if (resposta == true) {
+            window.location.href = "lista_evento.php?id" + id;
+        }
+    }
+</script>
+
+
 </body>
 
 </html>

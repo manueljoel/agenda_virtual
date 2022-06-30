@@ -15,47 +15,50 @@ include_once('../../../view/painel/layouts/navbar.php');
 </div>
 
 <div class="container">
-    <div class="row mb-5 py-5 ">
+    <div class="row mb-5 py-3">
         <div>
             <div class="card-body rounded-2 bg-white shadow py-5">
                 <form class="ui form">
                     <div class="row p-3">
                         <div class="col-sm-6">
                             <label>Título do Evento:</label>
-                            <input type="text" class="form-control" placeholder="informe o nome completo..." required>
+                            <input type="text" class="form-control" placeholder="informe o título do evento..." required>
                         </div>
 
                         <div class="col-sm-6">
                             <label>Descrição:</label>
-                            <input type="text" class="form-control" placeholder="digite o número..." required>
+                            <input type="text" class="form-control" placeholder="digite mais detalhes..." required>
                         </div>
 
                         <div class="col-sm-6 py-2">
                             <label>Data:</label>
-                            <input type="date" class="form-control" placeholder="informe o nome completo..." required>
+                            <input type="date" class="form-control" required>
                         </div>
 
                         <div class="col-sm-6 py-2">
                             <label>Hora:</label>
-                            <input type="time" class="form-control" placeholder="digite o número..." required>
+                            <input type="time" class="form-control" required>
                         </div>
 
                         <div class="col-sm-6 py-2">
                             <label>Local do Evento(opcional):</label>
-                            <input type="text" class="form-control" placeholder="digite o número...">
+                            <textarea type="text" class="form-control" placeholder="descreve o local..."></textarea>
                         </div>
                     </div>
 
                     <div class="card-footer-fluid px-3 bg-white">
-                        <button type="submit" class="ui teal button">
+                        <button class="ui teal button">
+                            <i class="fa-solid fa-floppy-disk"></i>
                             Salvar
                         </button>
 
                         <a href="/../agenda_virtual/view/painel/evento/lista_evento.php" type="submit" class="ui teal button">
+                            <i class="fa-solid fa-list"></i>
                             Ver lista
                         </a>
 
                         <a href="/../agenda_virtual/view/painel/home.php" type="submit" class="ui cinza button">
+                            <i class="fa-solid fa-rectangle-xmark"></i>
                             Cancelar
                         </a>
                     </div>

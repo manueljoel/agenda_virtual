@@ -12,8 +12,14 @@ include_once('../../../view/painel/layouts/navbar.php');
     </div>
 </div>
 
+<div class="text-center">
+    <img class="d-block mx-auto mb-2" src="/../agenda_virtual/assets/img/icons8_under_computer.ico" alt="" width="50" height="50">
+    <h2>Meus Dados</h2>
+</div>
+
+
 <div class="container">
-    <div class="row py-5">
+    <div class="row py-3">
         <div class="mb-5 py-4">
             <div class="">
                 <div class="card-body rounded-2 bg-white shadow-lg py-5">
@@ -37,11 +43,17 @@ include_once('../../../view/painel/layouts/navbar.php');
 
                         <div class="card-footer-fluid px-3 bg-white">
                             <button type="submit" class="ui teal button">
+                                <i class="fa-solid fa-pen-to-square"></i>
                                 Editar
                             </button>
 
+                            <a href="" type="submit" class="ui teal button">
+                                <i class="fa-solid fa-user-pen"></i>
+                                Ver dados
+                            </a>
+
                             <a href="/../agenda_virtual/view/painel/home.php" type="submit" class="ui yellow button">
-                                <i class="bi bi-house-door-fill"></i>
+                                <i class="fa-solid fa-landmark"></i>
                                 Home
                             </a>
                         </div>
