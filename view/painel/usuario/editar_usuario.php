@@ -8,6 +8,18 @@ include_once('../../../view/painel/layouts/navbar.php');
         <h1 class="ui header">
             <div class="m-3 content">Configurações da Conta <div class="sub header">Gerenciar preferencias</div>
             </div>
+
+            <div class="m-3 ui stackable menu">
+                <a href="/../agenda_virtual/view/painel/home.php" class="item">Home</a>
+
+                <a href="../../painel/contactos/contactos.php" class="item">Contactos</a>
+
+                <a href="../../painel/tarefas/tarefas.php" class="item">Tarefas</a>
+
+                <a href="../../painel/evento/evento.php" class="item">Eventos</a>
+
+                <a href="../../painel/" class="item">Calendário</a>
+            </div>
         </h1>
     </div>
 </div>
@@ -23,7 +35,7 @@ include_once('../../../view/painel/layouts/navbar.php');
         <div class="mb-5 py-4">
             <div class="">
                 <div class="card-body rounded-2 bg-white shadow-lg py-5">
-                    <form class="ui form">
+                    <form class="was-validated">
                         <div class="row p-3">
                             <div class="col-sm-6">
                                 <label>Nome:</label>
@@ -47,14 +59,14 @@ include_once('../../../view/painel/layouts/navbar.php');
                                 Editar
                             </button>
 
-                            <a href="" type="submit" class="ui teal button">
+                            <a href="/../agenda_virtual/view/painel/usuario/lista_usuario.php" type="submit" class="ui teal button">
                                 <i class="fa-solid fa-user-pen"></i>
                                 Ver dados
                             </a>
 
-                            <a href="/../agenda_virtual/view/painel/home.php" type="submit" class="ui yellow button">
-                                <i class="fa-solid fa-landmark"></i>
-                                Home
+                            <a href="../../painel/home.php" class="ui cinza button">
+                                <i class="fa-solid fa-rectangle-xmark"></i>
+                                Cancelar
                             </a>
                         </div>
                     </form>

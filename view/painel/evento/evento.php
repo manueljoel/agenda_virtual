@@ -9,6 +9,18 @@ include_once('../../../view/painel/layouts/navbar.php');
             <h1 class="ui header">
                 <div class="m-3 content">Meus Eventos <div class="sub header">Adicionar eventos</div>
                 </div>
+
+                <div class="m-3 ui stackable menu">
+                    <a href="/../agenda_virtual/view/painel/home.php" class="item">Home</a>
+
+                    <a href="../../painel/contactos/contactos.php" class="item">Contactos</a>
+
+                    <a href="../../painel/tarefas/tarefas.php" class="item">Tarefas</a>
+
+                    <a href="../../painel/evento/evento.php" class="item">Eventos</a>
+
+                    <a href="../../painel/" class="item">Calendário</a>
+                </div>
             </h1>
         </div>
     </div>
@@ -18,7 +30,7 @@ include_once('../../../view/painel/layouts/navbar.php');
     <div class="row mb-5 py-3">
         <div>
             <div class="card-body rounded-2 bg-white shadow py-5">
-                <form class="ui form">
+                <form class="was-validated">
                     <div class="row p-3">
                         <div class="col-sm-6">
                             <label>Título do Evento:</label>
@@ -42,7 +54,7 @@ include_once('../../../view/painel/layouts/navbar.php');
 
                         <div class="col-sm-6 py-2">
                             <label>Local do Evento(opcional):</label>
-                            <textarea type="text" class="form-control" placeholder="descreve o local..."></textarea>
+                            <textarea type="text" class="form-control" placeholder="descreve o local..." cols="30" rows="7"></textarea>
                         </div>
                     </div>
 

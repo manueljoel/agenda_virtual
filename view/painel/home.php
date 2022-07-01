@@ -9,13 +9,19 @@ include_once('../painel/layouts/navbar.php');
         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
             <h3 class="display-5 fw-bold text-dark">Agenda Virtual</h3>
 
-            <div class="ui three item menu">
+            <div class="ui stackable menu">
+                <div class="item">
+                    <img src="/../agenda_virtual/assets/img/icons8_dossier_folder.ico" width="80" height="40">
+                </div>
                 <a href="/../agenda_virtual/view/painel/contactos/contactos.php" class="item">Contactos</a>
 
                 <a href="/../agenda_virtual/view/painel/tarefas/tarefas.php" class="item">Tarefas</a>
 
                 <a href="/../agenda_virtual/view/painel/evento/evento.php" class="item">Eventos</a>
+
+                <a href="/../agenda_virtual/view/painel/evento/evento.php" class="item">Calendário</a>
             </div>
+
         </div>
     </div>
 </div>
@@ -41,7 +47,7 @@ include_once('../painel/layouts/navbar.php');
                     </div>
                 </div>
                 <div class="extra content">
-                    <a href="/../agenda_virtual/view/painel/tarefas/lista_tarefas.php" class="ui button">
+                    <a href="/../agenda_virtual/view/painel/tarefas/lista_tarefas.php" class="ui teal button">
                         <i class="fa-solid fa-plus"></i>
                         ver detalhes
                     </a>
@@ -67,7 +73,7 @@ include_once('../painel/layouts/navbar.php');
                     </div>
                 </div>
                 <div class="extra content">
-                    <a href="/../agenda_virtual/view/painel/contactos/lista_contactos.php" class="ui button">
+                    <a href="/../agenda_virtual/view/painel/contactos/lista_contactos.php" class="ui teal button">
                         <i class="fa-solid fa-plus"></i>
                         ver detalhes
                     </a>
@@ -93,7 +99,7 @@ include_once('../painel/layouts/navbar.php');
                     </div>
                 </div>
                 <div class="extra content">
-                    <button class="ui button">
+                    <button class="ui teal button">
                         <i class="fa-solid fa-plus"></i>
                         ver detalhes
                     </button>
@@ -122,7 +128,7 @@ include_once('../painel/layouts/navbar.php');
                     </div>
                 </div>
                 <div class="extra content">
-                    <button class="ui button">
+                    <button class="ui teal button">
                         <i class="fa-solid fa-plus"></i>
                         ver detalhes
                     </button>
@@ -131,6 +137,7 @@ include_once('../painel/layouts/navbar.php');
         </div>
     </div>
 </div>
+<br><br>
 <br><br>
 
 <?php

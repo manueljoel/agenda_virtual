@@ -8,12 +8,24 @@ include_once('../../../view/painel/layouts/navbar.php');
         <h1 class="ui header">
             <div class="m-3 content">Meus Contactos<div class="sub header">lista a baixo</div>
             </div>
+
+            <div class="m-3 ui stackable menu">
+                <a href="/../agenda_virtual/view/painel/home.php" class="item">Home</a>
+
+                <a href="../../painel/contactos/contactos.php" class="item">Contactos</a>
+
+                <a href="../../painel/tarefas/tarefas.php" class="item">Tarefas</a>
+
+                <a href="../../painel/evento/evento.php" class="item">Eventos</a>
+
+                <a href="../../painel/" class="item">Calendário</a>
+            </div>
         </h1>
     </div>
 </div>
 
 <div class="container-fluid">
-    <div class="row m-1 m-2 py-5 mb-5">
+    <div class="row m-1 m-2 py-3 mb-5">
         <div class="py-1 mb-3">
             <div class="m-3 py-4 mb-2 col-md-12">
                 <table id="Tabela" class=" ui fixed celled table shadow-sm" style="width:100%">
@@ -159,11 +171,6 @@ include_once('../../../view/painel/layouts/navbar.php');
                 <a href="../../painel/contactos/contactos.php" class="ui teal button">
                     <i class="fa-solid fa-plus"></i>
                     Adicionar
-                </a>
-
-                <a href="/../agenda_virtual/view/painel/home.php" class="ui yellow button">
-                    <i class="fa-solid fa-landmark"></i>
-                    Home
                 </a>
             </div>
         </div>
