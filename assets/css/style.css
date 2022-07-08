@@ -2,15 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 body{
-    font-family: "Montserrat", sans-serif;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: url(/../agenda_virtual/assets/img/flat-lay-planner-calendar-with-blue-accessories.jpg) center center;
+   /*background: #0E2A47 ;*/
+    background: url("/../agenda_virtual/assets/img/vecteezy_blue-background-ma1020.jpg") center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -19,11 +21,12 @@ body{
 .container{
     position: relative;
     padding: 40px 20px;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
     width: 800px;
     min-height: 440px;
     overflow: hidden;
+    box-shadow: inset;
 }
 
 .form-container{
@@ -107,7 +110,8 @@ body{
     margin: 20px;
     outline: none;
     cursor: pointer;
-    background: linear-gradient(#75c6d2, #07ccea);
+    background: linear-gradient(#2e41bc,#3043be);
+    border-radius: 5px;
 
 }
 
@@ -116,6 +120,7 @@ body{
     border: #03d3f3;
     color: white;
     transition: 0.3s;
+    outline: none;
     
 }
 
@@ -123,7 +128,7 @@ body{
     position: absolute;
     height: 100%;
     width: 50%;
-    background: linear-gradient( #75c6d2, #07ccea);
+    background: linear-gradient( #4353b7, #3043be);
     top: 50%;
     transform: translateY(-50%);
     left: 0;

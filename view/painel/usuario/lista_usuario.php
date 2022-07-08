@@ -50,9 +50,9 @@ include_once('../../../view/painel/layouts/navbar.php');
                             <td scope="row">Joel@gmail.com</td>
 
                             <th>
-                                <a href="" class="ui cinza button btn-sm">
-                                    <i class="fa-solid fa-trash-can"></i>
-                                </a>
+                                <button type="button" class="ui cinza button btn-sm" onclick="remove(this)">
+                                    <i class=" fa-solid fa-trash-can"></i>
+                                </button>
 
                                 <a href="../../painel/usuario/editar_usuario.php" class="ui teal button btn-sm ">
                                     <i class="fa-solid fa-pen-clip"></i>
@@ -82,7 +82,10 @@ include_once('../../../view/painel/layouts/navbar.php');
                                                     <br>Criou a conta através da google
                                                 </div>
                                                 <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                        <i class="fa-solid fa-rectangle-xmark"></i>
+                                                        Fechar
+                                                    </button>
                                                 </div>
                                             </div>
                                         </div>

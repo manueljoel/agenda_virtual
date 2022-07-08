@@ -1,16 +1,12 @@
-class Agenda{
 
-    constructor() {
+(function($) {
+        remove = function (item) {
+            var tr = $(item).closest('tr');
 
-    }
+            tr.fadeOut(400, function () {
+                tr.remove();
+            });
 
-    Adicionar() {
-        alert('vamos adicionar algum dados');
-    }
-
-    excluir() {
-        alert('item destado!');
-    }
-}
-
-var agenda = new Agenda();
+            return false;
+        }
+})(jQuery);

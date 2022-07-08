@@ -9,7 +9,7 @@
         <div class="signin">
 
             <form action="../../view/painel/home.php" class="form-sign-in">
-                <img class="mb-4" src="/../agenda_virtual/assets/img/icons8_checked_user_1.ico" alt="" width="65" height="65">
+                <img class="mb-4" src="/../agenda_virtual/assets/img/icons8_checked_user_2.ico" alt="" width="65" height="65">
 
                 <input type="email" placeholder="email@gmail.com" required>
                 <input type="password" placeholder="Senha***" required>
@@ -26,7 +26,7 @@
         <div class="signup">
 
             <form action="" class="form-sign-up">
-                <img class="mb-4" src="/../agenda_virtual/assets/img/icons8_add_user.ico" alt="" width="65" height="65">
+                <img class="mb-4" src="/../agenda_virtual/assets/img/icons8_add_user_1.ico" alt="" width="65" height="65">
                 <input type="text" placeholder="informe seu nome..." required>
                 <input type="email" placeholder="seu email@gmail.com" required>
                 <input type="password" placeholder="informe sua enha***" required>

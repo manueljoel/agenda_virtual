@@ -3,142 +3,84 @@ include_once('../painel/layouts/header.php');
 include_once('../painel/layouts/navbar.php');
 ?>
 
+<div class="px-3 py-2 border-bottom mb-0 bg-light shadow-lg">
+    <div class="container d-flex flex-wrap justify-content-center">
+        <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+            <input type="search" class="form-control" placeholder="Pesquisar..." aria-label="Search">
+        </form>
 
-<div class="container-fluid my-3 py-2">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5  align-items-center rounded-3 shadow">
-        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-            <h3 class="display-5 fw-bold text-dark">Agenda Virtual</h3>
-
-            <div class="ui stackable menu">
-                <div class="item">
-                    <img src="/../agenda_virtual/assets/img/icons8_dossier_folder.ico" width="80" height="40">
-                </div>
-                <a href="/../agenda_virtual/view/painel/contactos/contactos.php" class="item">Contactos</a>
-
-                <a href="/../agenda_virtual/view/painel/tarefas/tarefas.php" class="item">Tarefas</a>
-
-                <a href="/../agenda_virtual/view/painel/evento/evento.php" class="item">Eventos</a>
-
-                <a href="/../agenda_virtual/view/painel/evento/evento.php" class="item">Calendário</a>
-            </div>
-
+        <div class="text-end">
+            <button type="button" class="btn btn-light text-dark me-2">
+                <i class="fa-solid fa-user-gear"></i>
+                Perfil
+            </button>
+            <a href="../../view/login/login.php" type="button" class="btn botao">
+                <i class="fa-solid fa-door-open"></i>
+                Sair
+            </a>
         </div>
     </div>
 </div>
 
 
-<div class="container-fluid py-4 m-5">
-    <div class="row py-4">
-        <div class="col-md-3">
-            <div class="ui card">
-                <div class="content">
-                    <div class="header">Tarefas</div>
-                </div>
-                <div class="content">
-                    <h4 class="ui sub header">Actividades a realizar</h4>
-                    <div class="meta">vizualizado 2 minutos</div>
-                    <div class="ui small feed">
-                        <div class="event">
-                            <div class="content">
-                                <div class="text value">Título: Terminar o projecto Agenda<br></div>
-                                <div class="label">Data: 06/30/2022<br>Hora: 09:00</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra content">
-                    <a href="/../agenda_virtual/view/painel/tarefas/lista_tarefas.php" class="ui teal button">
-                        <i class="fa-solid fa-plus"></i>
-                        ver detalhes
-                    </a>
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../../assets/img/—Pngtree—creative gray office background_1347893.JPG" class="bd-placeholder-img" width="100%" height="600px">
+            <rect width="100%" height="100%" fill="#777" />
+            </img>
+
+            <div class="container">
+                <div class="carousel-caption text-start">
+                    <h1>Bem Vindo a sua Agenda-Virtual(+Time).</h1>
+                    <p>Fique mas próximo dos seus...</p>
+                    <p><a class="btn btn-lg btn botao" href="#">Contactos</a></p>
                 </div>
             </div>
         </div>
+        <div class="carousel-item">
+            <img src="../../assets/img/—Pngtree—creative gray office background_1347893.JPG" class="bd-placeholder-img" width="100%" height="600px">
+            <rect width="100%" height="100%" fill="#777" />
+            </img>
 
-        <div class="col-md-3">
-            <div class="ui card">
-                <div class="content">
-                    <div class="header">Contactos novos</div>
-                </div>
-                <div class="content">
-                    <h4 class="ui sub header">Ver contacos</h4>
-                    <div class="meta">vizualizado 40 minutos</div>
-                    <div class="ui small feed">
-                        <div class="event">
-                            <div class="content">
-                                <div class="text value">Nome: Joana<br></div>
-                                <div class="label">Telefone: 912345678<br>Morada: Talatona</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra content">
-                    <a href="/../agenda_virtual/view/painel/contactos/lista_contactos.php" class="ui teal button">
-                        <i class="fa-solid fa-plus"></i>
-                        ver detalhes
-                    </a>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Cumpra com as suas Metas.</h1>
+
+                    <p>Organiza o seu trabalho e o temo de execução...</p>
+                    <p><a class="btn btn-lg btn botao" href="#">Tarefas</a></p>
                 </div>
             </div>
         </div>
+        <div class="carousel-item">
+            <img src="../../assets/img/—Pngtree—creative gray office background_1347893.JPG" class="bd-placeholder-img" width="100%" height="600px">
+            <rect width="100%" height="100%" fill="#777" />
+            </img>
 
-        <div class="col-md-3">
-            <div class="ui card">
-                <div class="content">
-                    <div class="header">Eventos</div>
-                </div>
-                <div class="content">
-                    <h4 class="ui sub header">Atividade a ir</h4>
-                    <div class="meta">vizualizado 1 hora</div>
-                    <div class="ui small feed">
-                        <div class="event">
-                            <div class="content">
-                                <div class="text value">Título: Chegar a tempo a reuniāo<br></div>
-                                <div class="label">Data: 05/07/2022<br>Hora: 09:30</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra content">
-                    <button class="ui teal button">
-                        <i class="fa-solid fa-plus"></i>
-                        ver detalhes
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-
-            <div class="ui card">
-                <div class="content">
-                    <div class="header">Eventos</div>
-                </div>
-                <div class="content">
-                    <h4 class="ui sub header">Atividade a ir</h4>
-                    <div class="meta">vizualizado 2 dias atrás</div>
-                    <div class="ui small feed">
-                        <div class="event">
-                            <div class="content">
-                                <div class="statistic">
-                                    <div class="text value">Título: Ir para o camento da Sara<br></div>
-                                    <div class="label">Data: 08/07/2022<br>Hora: 21:30</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="extra content">
-                    <button class="ui teal button">
-                        <i class="fa-solid fa-plus"></i>
-                        ver detalhes
-                    </button>
+            <div class="container">
+                <div class="carousel-caption text-end">
+                    <h1>Chegue sempre à horas aos seus eventos .</h1>
+                    <p>Ser pontual não é nada difícil.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Eventos</a></p>
                 </div>
             </div>
         </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Avança</span>
+    </button>
 </div>
-<br><br>
-<br><br>
+
 
 <?php
 include_once('../painel/layouts/footer.php');
