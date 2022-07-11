@@ -19,10 +19,6 @@ $router->add('tarefa/deletar', ['controller' => 'Tarefa', 'action' => 'index']);
 
 //Eventos Routas
 $router->add('eventos', ['controller' => 'Evento', 'action' => 'index']);
-$router->add('evento/adicionar', ['controller' => 'Evento', 'action' => 'index']);
-$router->add('evento/editar', ['controller' => 'Evento', 'action' => 'index']);
-$router->add('evento/visualizar', ['controller' => 'Evento', 'action' => 'index']);
-$router->add('evento/deletar', ['controller' => 'Evento', 'action' => 'index']);
 
 //Contactos Routas
 $router->add('contactos', ['controller' => 'Contacto', 'action' => 'index']);

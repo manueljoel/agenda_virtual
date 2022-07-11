@@ -15,8 +15,7 @@
                 <a href="/tarefas" class="nav-link"><i class="far fa-clone"></i>Tarefas</a>
             </li>
             <li class="nav-item">
-                <a href="/../agenda_virtual/view/painel/evento/evento.php" class="nav-link"><i
-                        class="far fa-chart-bar"></i>Eventos</a>
+                <a href="/eventos" class="nav-link"><i class="far fa-chart-bar"></i>Eventos</a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link"><i class="far fa-calendar-alt"></i>Calendário</a>

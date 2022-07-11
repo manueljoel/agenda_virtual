@@ -1,8 +1,3 @@
-<?php
-include_once('../../../view/painel/layouts/header.php');
-include_once('../../../view/painel/layouts/navbar.php');
-?>
-
 <div class="nav-scroller bg-white px-4 py-2 shadow">
     <nav class="nav" aria-label="Secondary navigation">
         <a class="nav-link" aria-current="page" href="/../agenda_virtual/view/painel/home.php">
@@ -67,25 +62,31 @@ include_once('../../../view/painel/layouts/navbar.php');
                                                     Excluir
                                                 </button>
 
-                                                <a href="../../painel/evento/editar_evento.php" class="btn botao btn-sm ">
+                                                <a href="../../painel/evento/editar_evento.php"
+                                                    class="btn botao btn-sm ">
                                                     <i class="fa-solid fa-pen-clip"></i>
                                                     Editar
                                                 </a>
 
                                                 <!-- botao do modal -->
-                                                <button type="button" class="btn botao btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                <button type="button" class="btn botao btn-sm" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">
                                                     <i class="fa-solid fa-eye"></i>
                                                     Ver
                                                 </button>
 
                                                 <!-- Princípio do modal -->
                                                 <div class="">
-                                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                         <div class="modal-dialog modal-dialog-centered">
                                                             <div class="modal-content">
                                                                 <div class="modal-header">
-                                                                    <h5 class="modal-title" id="exampleModalLabel">Ir para reuniāo da escola da Judth</h5>
-                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                    <h5 class="modal-title" id="exampleModalLabel">Ir
+                                                                        para reuniāo da escola da Judth</h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
                                                                 </div>
                                                                 <div class="modal-body">
                                                                     Descriçāo: Receber o bolitim de
@@ -96,7 +97,8 @@ include_once('../../../view/painel/layouts/navbar.php');
                                                                     <br>Local:Vila de Viana(Colégio Eliada).
                                                                 </div>
                                                                 <div class="modal-footer">
-                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                                    <button type="button" class="btn btn-secondary"
+                                                                        data-bs-dismiss="modal">
                                                                         <i class="fa-solid fa-rectangle-xmark"></i>
                                                                         Fechar
                                                                     </button>
@@ -120,6 +122,3 @@ include_once('../../../view/painel/layouts/navbar.php');
                         Adicionar
                     </a>
                 </div>
-                <?php
-                include_once('../../../view/painel/layouts/footer.php');
-                ?>

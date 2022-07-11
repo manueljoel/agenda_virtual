@@ -8,7 +8,6 @@ use Core\Controller;
 
 class Contacto extends Controller
 {
-
     public function indexAction()
     {
         View::render('');

@@ -12,7 +12,7 @@ body{
     justify-content: center;
     min-height: 100vh;
    /*background: #0E2A47 ;*/
-    background: url("/../agenda_virtual/assets/img/vecteezy_blue-background-ma1020.jpg") center center;
+    background: url("../img/vecteezy_blue-background-ma1020.jpg") center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
